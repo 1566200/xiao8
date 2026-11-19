@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#17835c">
+<meta name="description" content="2027 考研政治肖秀荣八套卷学习系统：纯刷题、纯知识点、分类学习、大题专区，手机随时可用。">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="肖八刷题">
+<title>肖八刷题 · 2027 考研政治</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="topbar-in">
+    <button class="icon-btn" id="btnBack" hidden aria-label="返回"></button>
+    <div class="grow">
+      <h1 id="pageTitle">肖八刷题</h1>
+      <div class="sub" id="pageSub">2027 考研政治 · 肖秀荣八套卷</div>
+    </div>
+    <button class="icon-btn" id="btnSearch" aria-label="搜索"></button>
+    <button class="icon-btn" id="btnMenu" aria-label="更多"></button>
+  </div>
+</header>
+
+<main id="view" class="wrap"></main>
+
+<nav id="tabbar" aria-label="主导航"></nav>
+
+<div class="toast" id="toast"></div>
+<div class="sheet-mask" id="mask"></div>
+<div class="sheet" id="sheet"><div class="grab"></div><div id="sheetBody"></div></div>
+
+<script src="data/papers.js"></script>
+<script src="data/points.js"></script>
+<script src="data/x4.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

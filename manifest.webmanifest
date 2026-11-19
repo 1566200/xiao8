@@ -1,0 +1,17 @@
+{
+  "name": "肖八刷题 · 2027 考研政治",
+  "short_name": "肖八刷题",
+  "description": "2027 肖秀荣八套卷学习系统：纯刷题、纯知识点、分类学习、大题专区",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f4ef",
+  "theme_color": "#17835c",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-mask.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
